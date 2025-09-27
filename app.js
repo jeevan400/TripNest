@@ -85,14 +85,18 @@ app.use((req, res, next)=>{
 });
 
 //create the demo user
-app.get("/demouser", async (req, res)=>{
-    let fakeuser = new User({
-        email: "student@gamil.com",
-        username: "delta-student"
-    });
+// app.get("/demouser", async (req, res)=>{
+//     let fakeuser = new User({
+//         email: "student@gamil.com",
+//         username: "delta-student"
+//     });
 
-   let registerUser = await User.register(fakeuser, "helloworld");
-   res.send(registerUser);
+//    let registerUser = await User.register(fakeuser, "helloworld");
+//    res.send(registerUser);
+// });
+
+app.get("/", (req, res)=>{
+    res.send("This is a home route");
 });
 
 // use listings.js file
