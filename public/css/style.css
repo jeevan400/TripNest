@@ -1,0 +1,118 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+body {
+  font-family: "Roboto", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000000 !important;
+}
+.fa-globe {
+  color: #fe424d;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #000000 !important;
+  transition: all 0.3s ease-in;
+}
+.nav-link:hover {
+  color: #fe424d !important;
+}
+.f-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #cfcfcf;
+  padding: 1rem;
+}
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: #000000;
+}
+.f-info-links a {
+  text-decoration: none;
+  color: #000000;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+.f-info-brand {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+/* card */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 1rem !important;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+/* .card-img-top:hover{
+    border: 2px solid red !important;
+} */
+.card-body {
+  padding: 0 !important;
+}
+.card-text p {
+  font-weight: 400;
+}
+.listing-link {
+  text-decoration: none;
+}
+.card-img-overlay {
+  background-color: #ffffff;
+  opacity: 0;
+  transition: all 0.1s ease-in;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+}
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+/* edit page */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+/* show page */
+.show-img {
+  height: 400px;
+}
+.btns {
+  display: flex;
+}
+label {
+  color: #000000 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+input,
+textarea {
+  border: 1px solid #000000 !important;
+}
+
+/* map */
+#map {
+  height: 400px;
+  width: 43vw;
+}
