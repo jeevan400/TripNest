@@ -96,7 +96,7 @@ app.use((req, res, next)=>{
 // });
 
 app.get("/", (req, res)=>{
-    res.send("This is a home route");
+    res.redirect("/listings");
 });
 
 // use listings.js file
