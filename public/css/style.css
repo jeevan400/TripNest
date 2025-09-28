@@ -26,6 +26,56 @@ body {
 .nav-link:hover {
   color: #fe424d !important;
 }
+.search-nav {
+  /* border: 1px solid black; */
+  border-radius: 2rem;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.4rem 0 0.4rem;
+  box-shadow: 0 0 8px #0808082f;
+}
+.search-nav .d-flex{
+  width: 100%;
+  justify-content: space-around;
+}
+.search-btn {
+  background-color: #fe424d !important;
+  color: #ffffff !important;
+  border-radius: 25px !important;
+  font-size: 18px !important;
+  height: 35px !important;
+  width: 35px !important;
+  padding: 1rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.search-btn:hover {
+  background-color: #fe424d;
+  color: #ffffff;
+}
+.search-btn i {
+  display: inline;
+}
+.search-input {
+  border-radius: 2rem !important;
+  font-size: 14px !important;
+  height: 35px !important;
+  width: 95% !important;
+  border: none !important;
+}
+.navbar-toggler {
+  background-color: #fe424d !important;
+}
+.navbar-toggler span i {
+  font-size: 2rem;
+  color: #ffffff;
+}
+.collapse {
+  background-color: #ffffff;
+}
 .f-info {
   display: flex;
   justify-content: center;
@@ -114,5 +164,29 @@ textarea {
 /* map */
 #map {
   height: 400px;
-  width: 43vw;
+  width: 100%;
+}
+/* login form */
+.login-form {
+  background-color: #0000000c;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 0 10px #0808082f;
+  padding: 2rem !important;
+}
+@media(min-width:770px) and (max-width:900px){
+  .search-nav{
+    width: 30vw;
+  }
+}
+@media(min-width: 900px) and (max-width:1100px){
+  .search-nav{
+    width: 40vw;
+  }
+}
+@media(min-width:1100px){
+  .search-nav{
+    width: 50vw;
+  }
 }
